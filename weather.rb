@@ -37,10 +37,9 @@ string(weather)
 
 
 puts weather 
-weather.each do |city, description, temperature_farenheit|
-  puts "The city is #{city}."
-  puts "The description is #{description}."
-  puts "The temperature is #{temperature_farenheit}"
+weather.each do |key, values|
+  puts "The city "
+
 end 
 
 
