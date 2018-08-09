@@ -25,7 +25,7 @@ description(weather)
 # 3. Using the methods above and string interpolation, update the method below so that it returns a string that describes the current weather - for example: "The weather in New York is Partly Cloudy. The temperature is 66.1 degrees Farenheit." HINT: the method should RETURN the string, not print it to the terminal. 
 
 def string(weather)
-  puts "The weather is #{weather [:city]} is #{weather [:description]}."
+  puts "The weather in #{weather [:city]} is #{weather [:description]}."
 end
 
 string(weather)
